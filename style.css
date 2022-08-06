@@ -1,0 +1,40 @@
+html,
+body {
+	min-height: 100%;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#canvas {
+	padding: 10px;
+	background-color: #2f4a6d;
+	/* background-color: #008080; */
+
+	border-radius: 5px;
+	min-width: 1000px;
+	min-height: 600px;
+}
+
+#legend {
+	background-color: #2f4a6d;
+	width: 500px;
+	height: 160px;
+	font-size: 0.9em;
+}
+
+#tooltip {
+	position: absolute;
+	width: auto;
+	height: auto;
+	padding: 10px;
+	border-radius: 5px;
+	text-align: center;
+	color: white;
+	background-color: rgba(17, 17, 17, 0.7);
+	box-shadow: rgba(81, 81, 236, 0.35) 0px 5px 15px;
+	pointer-events: none;
+	visibility: hidden;
+}

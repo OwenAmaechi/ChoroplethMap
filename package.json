@@ -1,0 +1,16 @@
+{
+  "name": "choroplethmap",
+  "version": "1.0.0",
+  "description": "freecodecamp d3 graph",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "choroplethmap",
+    "graph",
+    "freecodecamp"
+  ],
+  "author": "Owen A",
+  "license": "ISC"
+}
